@@ -1,0 +1,30 @@
+.section-11{
+    padding: 120px 30px 60px;
+}
+.section-11-description{
+    width: 445px;
+    color: gray;
+    font-size: 20px;
+}
+.section-11-item{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 580px){
+    .section-11{
+        padding: 60px 30px 40px;
+        text-align: center;
+    }
+    .section-11-description{
+        width: unset;
+    }
+    .section-11-items-wrap{
+        display: none;
+    }
+    .section-11-swiper{
+        display: block !important;
+    }
+    .section-11-swiper .swiper-slide{
+        width: fit-content;
+    }
+}
