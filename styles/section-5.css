@@ -12,6 +12,10 @@
 .section-5-text-wrap{
     width: 540px;
 }
+.section-5-text-wrap span{
+    font-size: 20px;
+    color: gray;
+}
 .section-5-top-img{
     width: 363px;
     height: 350px;
@@ -32,10 +36,13 @@
     .section-5-text-wrap{
         width: 350px;
     }    
+    .section-5-text-wrap span{
+        font-size: 14px;
+    }
 }
 @media (max-width: 580px){
     .section-5{
-        padding: 60px 30px;
+        padding: 60px 0;
     }
     .section-5-top{
         flex-direction: column-reverse;
@@ -45,7 +52,7 @@
         flex-direction: column;
     }
     .section-5-text-wrap{
-        width: 300px;
+        width: 100%;
     }
     .section-5-top-img{
         width: 350px;

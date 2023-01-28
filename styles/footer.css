@@ -25,6 +25,12 @@ footer{
 .footer-soc-med{
     margin-top: 20px;
 }
+.footer-soc-med a:hover{
+    opacity: 0.3;
+}
+.footer-soc-med a:first-child{
+    padding-left: 0;
+}
 .footer-nav-wrap{
     display: flex;
     justify-content: space-between;
@@ -40,9 +46,12 @@ footer{
     color: white;
     margin-bottom: 20px;
 }
-.footeer-top .nav-link{
+.footer-nav-wrap .nav-link{
     color: #9497A1;
     padding-left: 0;
+}
+.footer-nav-wrap .nav-link:hover{
+    text-decoration: underline;
 }
 .footer-bottom{
     margin-top: 34px;
@@ -88,6 +97,9 @@ footer{
     }
 }
 @media (max-width: 360px){
+    footer{
+        padding: 86px 16px 20px;
+    }
     .footer-soc-med{
         margin-top: unset;
     }

@@ -1,6 +1,9 @@
 .desctop-hidden{
     display: none !important;
 }
+.hidden{
+    display: none !important;
+}
 .container{
     max-width: 1110px;
     margin: 0 auto;
@@ -25,6 +28,12 @@
 h2{
     font-size: 46px;
     font-weight: bold;
+}
+.swiper-button-disabled{
+    opacity: 0.5;
+}
+.breadcrumb-item:not(.active) a:hover{
+    color: #185CFF;
 }
 @media (max-width: 580px){
     .sm-hidden{

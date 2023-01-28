@@ -10,10 +10,21 @@ header .container{
     background-color: #185CFF;
 }
 .header-nav .nav-link{
-    color: black;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header-nav .nav-link:hover{
+    color: #185CFF;
+}
+.header-nav-item-current-page{
+    color: black !important;
 }
 .header-sing-up{
     font-weight: bold;
+}
+.header-sing-up:hover{
+    color: #185CFF;
 }
 .header-btn{
     background-color: #fff;
@@ -53,6 +64,19 @@ header .container{
     }
     .mobile-container{
         display: block !important;
+    }
+    .mobile-container .navbar{
+        background-color: white;
+    }
+    .mobile-container .navbar .navbar-toggler{
+        border: none;
+    }
+    .mobile-container .navbar .navbar-toggler .navbar-toggler-icon{
+        background-image: url(../img/header_navbar-toggler-icon.svg);
+        width: 20px;
+    }
+    .mobile-container .btn-primary{
+        padding: 10px 34px;
     }
     .header-nav .nav-link{
         padding: 2px 5px;

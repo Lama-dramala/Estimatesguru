@@ -33,6 +33,9 @@
     justify-content: center;
     align-items: center;
 }
+#section-10-swiper-prev:hover, #section-10-swiper-next:hover{
+    opacity: 0.3;
+}
 #section-10-swiper-prev{
     rotate: 180deg;
     margin-right: 15px;
@@ -74,6 +77,9 @@
     }
     .section-10-h2{
         margin-bottom: 30px;
+    }
+    .section-10-btn-wrap{
+        margin-left: auto;
     }
 }
 @media (max-width: 360px){

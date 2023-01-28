@@ -38,6 +38,10 @@
     align-items: center;
     justify-content: center;
     border: 0;
+    font-weight: bold;
+}
+.section-7-head-buttons-wrap .btn:hover{
+    opacity: 0.5;
 }
 .section-7-items-wrap{
     width: 100%;
@@ -50,15 +54,22 @@
     padding: 50px 30px;
     margin: 0 auto 60px;
 }
+.section-7-item h4{
+    font-weight: bold;
+}
 .section-7-item-price{
     font-weight: bold;
     font-size: 38px;
+}
+.section-7-item-price-near{
+    font-size: 20px;
 }
 .section-7-item-button{
     width: 100%;
     background-color: unset;
     color: #185CFF;
     margin: 40px 0;
+    font-weight: bold;
 }
 .section-7-iem-checkmark{
     margin-right: 11px;
@@ -66,9 +77,13 @@
 .section-7-item-benefits{
     margin-bottom: 15px;
 }
+.section-7-bottom-btn{
+    font-weight: bold;
+    padding: 15px 35px;
+}
 @media (max-width: 580px){
     .section-7{
-        padding: 60px 30px;
+        padding: 60px 0;
     }
     .section-7-head{
         flex-direction: column;
@@ -84,6 +99,9 @@
     }
 }
 @media (max-width: 360px){
+    .section-7-head-buttons-wrap{
+        width: 190px;
+    }
     .section-7-item{
         padding: 50px 20px 0;
         font-size: 12px;

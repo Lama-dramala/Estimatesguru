@@ -23,6 +23,9 @@
     justify-content: center;
     align-items: center;
 }
+#section-9-swiper-prev:hover, #section-9-swiper-next:hover{
+    opacity: 0.3;
+}
 #section-9-swiper-prev{
     rotate: 180deg;
     margin-right: 15px;
@@ -50,10 +53,14 @@
     font-weight: bold;
     text-decoration: unset;
 }
+.section-9-item-link:hover{
+    text-decoration: underline;
+}
 .section-9-bottom-btn{
     width: 100%;
     margin-top: 40px;
     justify-content: center;
+    font-weight: bold;
 }
 @media (max-width: 580px){
     .section-9{

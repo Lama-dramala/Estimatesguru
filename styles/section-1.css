@@ -8,22 +8,28 @@
 .section-1-left{
     display: flex;
     flex-direction: column;
-    max-width: 540px;
+    max-width: 540px;    
     margin-right: 20px;
 }
+.section-1-left span{
+    font-size: 20px;
+    color: gray;
+}
 .section-1-h2{
+    margin-top: 22px;
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 46px;
 }
 .section-1-link{
+    font-weight: bold;
     margin-top: 35px;
     padding: 15px 55px;
     width: fit-content;
 }
 @media (max-width: 860px){
     .section-1{
-        padding-bottom: 100px;
+        padding: 0 0 100px;
     }
     .section-1 .container{
         flex-direction: column-reverse;
@@ -48,5 +54,8 @@
     }
     .section-1-h2{
         font-size: 30px;
+    }
+    .section-1-link{
+        width: 100%;
     }
 }

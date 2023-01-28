@@ -11,8 +11,15 @@
     flex-direction: column
 }
 .section-8-text-wrap{
-    width: 500px;
+    width: 540px;
     margin-bottom: 80px;
+}
+.section-8-h2{
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+.section-8-left span{
+    color: gray;
 }
 .section-8-email{
     margin-bottom: 24px;
@@ -37,6 +44,10 @@
     border-bottom: 1px solid black;
     border-radius: unset;
 }
+.section-8-form input:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
 .section-8-form-submit-button{
     margin: auto 0 0 auto;
     padding: 10px 52px;
@@ -52,7 +63,7 @@
 }
 @media (max-width: 580px){
     .section-8{
-        padding: 60px 30px 40px;
+        padding: 60px 0 40px;
     }
     .section-8-left{
         margin-bottom: 0;
@@ -61,10 +72,14 @@
         width: unset;
         margin-bottom: 30px;
     }
+    .section-8-h2{
+        font-size: 30px;
+    }
     .section-8-text-wrap span{
         display: none;
     }
     .section-8-mob-btn{
+        font-weight: bold;
         margin-top: 100px;
         display: flex !important;
         width: fit-content;

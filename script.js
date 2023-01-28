@@ -39,3 +39,8 @@ const swiperSec11 = new Swiper('.section-11-swiper', {
   slidesPerView: "auto",
   loop: true,
 });
+
+function hideForm(){
+    document.getElementById("section-1-main-content").classList.add("hidden")
+    document.getElementById("submitFormMessage").classList.remove("hidden")
+}
